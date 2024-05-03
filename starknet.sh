@@ -1,7 +1,6 @@
 #!/bin/bash
 
-RPC_URL="https://rpc.starknet.lava.build/lava-referer-8b51600b-b3cc-4893-89ec-5de41f0724db/"
-
+RPC_URL="https://rpc.starknet.lava.build/lava-referer-41907dc6-a336-400f-b247-2fb5cabd2b94/
 OUTPUT_DIR="logs"
 
 starknet_data=$(curl -s -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","id":"1","method":"starknet_blockNumber"}' "$RPC_URL")
